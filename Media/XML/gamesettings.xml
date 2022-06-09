@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+	<game name="Uchugun" />
+   <renderer width="1024" height="768"/>
+   
+   <font file="Media\Fonts\ArcadeClassic_24.spritefont"/>
+
+   <!-- sprites -->
+   <sprites path="Media\Images">
+     <sprite name="floor" file="floor.png"/>
+     <sprite name="player" file="player.png"/>
+     <sprite name="turret" file="turret.png"/>
+     <sprite name="greenline" file="greenline.png"/>
+     <!--<sprite name="bullet" file="bullet" frames="4" ext="png"/>-->
+	 <sprite name="bullet" file="PlayerMissile" frames="2" ext="png"/>
+     <!--<sprite name="bullet2" file="redbeam" frames="4" ext="png"/>-->
+	 <sprite name="bullet2" file="newredbeam" frames="8" ext="png"/>
+     <sprite name="smoke" file="graysmoke.png"/>
+     <sprite name="spark" file="flash.png"/>
+     <sprite name="BLUE_SHIP" file="blueship" ext= "png" frames="12"/>
+     <sprite name="RED_SHIP" file="redship" ext="png" frames="12"/>
+	 <sprite name="HEART1_SPRITE" file="heart1.png"/>
+	 <!--<sprite name="RED_NORMAL_ENEMY" file="red_enemy" ext="png" frames="6"/>-->
+	 <!--<sprite name="BLUE_NORMAL_ENEMY" file="blue_enemy.png"/>-->
+	 <sprite name="RED_LIGHT_ENEMY" file="RedLightEnemy" ext="png" frames="8"/>
+	 <sprite name="BLUE_LIGHT_ENEMY" file="BlueLightEnemy" ext="png" frames="8"/>
+	 <sprite name="RED_HEAVY_ENEMY" file="RedHeavyEnemy" ext="png" frames="8"/>
+	 <sprite name="BLUE_HEAVY_ENEMY" file="BlueHeavyEnemy" ext="png" frames="8"/>
+	 <!--<sprite name="BLUE_BULLET" file="bluebeam" frames="4" ext="png"/>-->
+	 <sprite name="BLUE_BULLET" file="newbluebeam" frames="8" ext="png"/>
+	 <sprite name="LILBOY" file="littleboy.png"/>
+	 <!--<sprite name="HOTSHOT" file="Hotshot.png"/>-->
+	 <sprite name="HOTSHOT" file="newhotshot" frames="10" ext="png"/>
+	 <sprite name="FIREBALL" file="fireball.png"/>
+	 <sprite name="REDFIRE" file="firetrap" frames="3" ext="png"/>
+	 <sprite name="BLACK_JACK" file="blackjack.png"/>
+	 <sprite name="LILBOMB" file="newbomb" frames="6" ext="png"/>
+	 <sprite name = "INTRO_SCREEN" file="INTRO_SCREEN" frames="8" ext="png"/>
+	 <sprite name = "GAME_OVER_SCREEN" file="GameOver" frames="14" ext="png"/>
+	 <sprite name = "BACKGROUND" file="BACKGROUND" frames="30" ext="png"/>
+	 <sprite name = "VOLCANO_BACKGROUND" file="volcanobackground" frames="16" ext="png"/>
+	 <sprite name = "STAR_BACKGROUND" file="starfieldbackground" frames="25" ext="png"/>
+	 <sprite name = "EARTH_BACKGROUND" file="earthbackground" frames="55" ext="png"/>
+	 <sprite name = "HIT" file="bubble_explosion.png"/>
+	 <sprite name = "SMALL_SMOKE" file="small_smoke.png"/>
+	 <sprite name = "BIG_SMOKE" file="big_smoke.png"/>
+	 <!--<sprite name = "SMALL_EXPLOSION" file="small_explosion.png"/>-->
+	 <sprite name = "SMALL_EXPLOSION" file="Explosion" frames="8" ext="png"/>
+	 <sprite name = "LILBOMB_EFFECT" file="e1.png"/>
+	 <sprite name = "RED_LINE" file="RedLine.png"/>
+	 <sprite name = "BLUE_LINE" file="BlueLine.png"/>
+	 <sprite name = "FORCE_FIELD" file="ff" frames="4" ext="png"/>
+	 <sprite name =  "BLACK_HOLE" file="bh" frames="12" ext="png"/>
+	 <sprite name = "QUEEN" file="queencard.png"/>
+	 <sprite name = "JACK" file="jackcard.png"/>
+	 <sprite name = "CARD" file="card.png"/>
+	 <sprite name = "BIG_EXPLOSION" file="lbexplosion" frames="6" ext="png"/>
+	 <sprite name = "SMALL_RESPAWN" file="spawn.png"/>
+	 <sprite name = "LARGE_RESPAWN" file="spawn2.png"/>
+	 <sprite name = "END_SCREEN" file="endscreen" frames="4" ext="png"/>
+   </sprites>
+
+   <!-- sound -->
+  
+   <sounds  path="Media\Sounds">
+     <sound file="44magnum.wav" instances="8"/>
+     <sound file="ricochet.wav" instances="8"/>
+     <sound file="ow.wav" instances="8"/>
+     <sound file="clang.wav" instances="8"/>
+	<sound file="Rydeen.wav" instances="8"/>
+	<sound file="playergun.wav" instances="8"/>
+	<sound file="firetrap.wav" instances="8"/>
+	<sound file="fireball.wav" instances="8"/>
+	<sound file="enemygun.wav" instances="8"/>
+	<sound file="death.wav" instances="8"/>
+	<sound file="damage.wav" instances="8"/>
+	<sound file="bh_sound.wav" instances="8"/>
+	<sound file="playerhitsound.wav" instances="8"/>
+	<sound file="absorb.wav" instances="8"/>
+	<sound file="porta.wav" instances="8"/>
+	<sound file="EndofTheDark.wav" instances="8"/>
+	<sound file="Victory.wav" instances="8"/>
+   </sounds>
+</settings>
